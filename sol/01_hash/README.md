@@ -1,6 +1,6 @@
 ||문제|풀이|난이도|
 |--|--|--|--|
-|프로그래머스|[폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845?language=python3)|[👉](./ponketmon.py)|⭐️★★|
+|프로그래머스|[폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845?language=python3)|[👉](./01_포켓몬.py)|⭐️★★|
 
 
 
