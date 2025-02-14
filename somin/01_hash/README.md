@@ -1,3 +1,12 @@
+||문제|풀이|난이도|
+|--|--|--|--|
+|프로그래머스|[폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)|[👉](./01_포켓몬.py)|⭐️★★|
+|프로그래머스|[완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576)|[👉](./02_완주하지못한선수.py)|⭐️★★|
+|프로그래머스|[전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)|[👉](./03_전화번호목록.py)|⭐️⭐️★|
+|프로그래머스|[의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)|[👉](./04_의상.py)|⭐️⭐️★|
+|프로그래머스|[베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|[👉](./05_베스트앨범.py)|⭐️⭐️⭐️|
+|백준|[나는야 포켓몬 마스터](https://www.acmicpc.net/problem/1620)|[👉](./06_나는야포켓몬마스터.py)|🩶|
+
 ## 📌 1. 개념 및 정의
 
 해시는 **키**와 **값**의 쌍을 저장하는 자료구조로, 일반적으로 **해시 테이블**을 통해 구현됩니다. 빠른 데이터 검색, 삽입, 삭제가 가능하며, **해시 함수**를 이용해 키를 특정한 인덱스로 변환하여 데이터를 저장합니다.
