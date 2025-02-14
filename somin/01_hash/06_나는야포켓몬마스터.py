@@ -23,4 +23,4 @@ for _ in range(m):
         output.append(str(name_to_num[query]))
 
 # 한 번에 출력하여 성능 개선
-output.append(num_to_name[int(query)])
+sys.stdout.write("\n".join(output) + "\n")
