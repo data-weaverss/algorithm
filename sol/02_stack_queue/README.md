@@ -2,6 +2,7 @@
 |--|--|--|--|
 |프로그래머스|[같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)|[👉](./01_같은숫자는싫어.py)|⭐️★★|
 |프로그래머스|[기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)|[👉](./02_기능개발.py)|⭐️⭐️★|
+|프로그래머스|[올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|[👉](./03_올바른괄호.py)|⭐️⭐️★|
 
 
 <br><br><br>

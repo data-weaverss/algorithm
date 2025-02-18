@@ -6,7 +6,7 @@
 |프로그래머스|[의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)|[👉](./04_의상.py)|⭐️⭐️★|
 |프로그래머스|[베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|[👉](./05_베스트앨범.py)|⭐️⭐️⭐️|
 |백준|[나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620)|[👉](./06_나는야포켓몬마스터이다솜.py)|🩶|
-|백준|[두배열의 합](https://www.acmicpc.net/problem/2143)|[👉](./07_두배열의합.py)|💛💛💛|
+|백준|[두배열의 합](https://www.acmicpc.net/problem/2143)|[👉](./07_두배열의합.py)|💛|
 
 <br><br><br>
 ---
