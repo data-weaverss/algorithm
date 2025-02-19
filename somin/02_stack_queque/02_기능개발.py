@@ -5,7 +5,6 @@ def solution(progresses, speeds):
     prev_day = -1
     for progress, speed in zip(progresses, speeds):
         # 남은 작업량 처리하는 일자 계산
-        work_days = round((100 - progress) / speed)
         work_days = (100 - progress + speed - 1) // speed # 소수점 올림
 
         if work_days > prev_day: # 이전 작업일보다 많으면 이전 작업 배포
