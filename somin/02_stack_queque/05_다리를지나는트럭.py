@@ -4,14 +4,17 @@ from collections import deque
 def solution(bridge_length, weight, truck_weights):
     bridge = deque([0]*bridge_length) # 다리 길이만큼 큐로 초기화
     truck_weights = deque(truck_weights) # 트럭 무게 큐로 초기화
-    time = 0 # 다리를 건너는 시간 저장
-    # 남아있는 트럭이 없을 때까지
-    while truck_weights:
+    time = 0 # 소요 시간
+    bridge_weight = 0  # 현재 다리 위의 트럭 무게 합
+    
+    while truck_weights: # 트럭이 다 건너갈 때까지
         time += 1
         truck = truck_weights.popleft()
-        bridge.popleft() # 다리를 모두 건넌 트럭 또는 0 popleft
-        if sum(bridge)+truck <= weight: # 합이 제한무게를 넘지 않는다면
+        bridge_weight -= bridge.popleft()  # 다리를 건넌 트럭 무게 제거
+        
+        if bridge_weight <= weight - truck: # 합이 제한무게를 넘지 않는다면
             bridge.append(truck)
+            bridge_weight += truck
         else: # 넘었다면 트럭을 다시 truck_weights 삽입,
             truck_weights.appendleft(truck)
             bridge.append(0)
