@@ -4,6 +4,7 @@
 |프로그래머스|[기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)|[👉](./02_기능개발.py)|⭐️⭐️★|
 |프로그래머스|[올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)|[👉](./03_올바른괄호.py)|⭐️⭐️★|
 |프로그래머스|[프로세스](https://school.programmers.co.kr/learn/courses/30/lessons/42587)|[👉](./04_프로세스.py)|⭐️⭐️★|
+|프로그래머스|[다리를 지는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)|[👉](./05_다리를지나는트럭.py)|⭐️⭐️★|
 
 
 <br><br><br>
