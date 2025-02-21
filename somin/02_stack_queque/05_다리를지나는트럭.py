@@ -20,7 +20,7 @@ def solution(bridge_length, weight, truck_weights):
             bridge.append(0)
     
     # 다리에 있는 트럭 모두 건너는 시간 추가
-    time += len(bridge)
+    time += bridge_length
     return time
             
 
