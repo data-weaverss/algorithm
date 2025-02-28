@@ -6,7 +6,7 @@ def sync_heap(heap, difficulty_level):
     """
     heap과 difficulty_level이 동기화될 때까지 최상위 요소를 제거하는 함수
     - heap에서 최상위 문제의 난이도가 실제 저장된 난이도와 다르면 제거
-    - 문제를 삭제하거나 난이도를 변경한 경우, 실제 저장된 난이도와 다르게 됨
+    - 문제를 풀었거나 난이도를 변경한 경우, 실제 저장된 난이도와 다르게 됨
     """
     while heap and difficulty_level[abs(heap[0][1])] != abs(heap[0][0]):
         heappop(heap)

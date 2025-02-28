@@ -16,15 +16,15 @@ def solution(N, meetings):
         # 가장 빠른 시작 시간을 가진 회의 꺼내기
         start_time, end_time = heappop(start_heap)
 
-        # end_heap[0][0] -> 가장 빨리 끝나는 회의의 종료 시간
+        # end_heap[0] -> 가장 빨리 끝나는 회의의 종료 시간
         # start_time -> 새롭게 시작할 회의의 시작 시간
         # 가장 빨리 끝나는 회의의 종료 시간 <= 새로운 회의 시작 시간
         # -> 기존 회의실을 그대로 사용할 수 있다는 뜻
-        if end_heap and end_heap[0][0] <= start_time:
+        if end_heap and end_heap[0] <= start_time:
             heappop(end_heap)  # 종료된 회의 제거
 
         # 새 회의 추가 (종료 시간을 기준으로 정렬)
-        heappush(end_heap, (end_time, start_time))
+        heappush(end_heap, end_time)
 
     # 예제 시뮬레이션:
     # 입력: [(1, 5), (2, 6), (3, 7), (8, 9)]
@@ -39,7 +39,6 @@ def solution(N, meetings):
 if __name__ == "__main__":
     input = sys.stdin.readline
     N = int(input())
-    meeting_times = []
-    meetings = [tuple(map(int, input().split())) for _ in range(n)]
+    meetings = [tuple(map(int, input().split())) for _ in range(N)]
 
-    print(solution(N, meeting_times))
+    print(solution(N, meetings))
