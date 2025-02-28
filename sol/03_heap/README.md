@@ -1,6 +1,10 @@
 ||문제|풀이|난이도|
 |--|--|--|--|
 |프로그래머스|[더 맵게](https://school.programmers.co.kr/learn/courses/30/parts/12117)|[👉](./01_더맵게.py)|⭐️⭐️★|
+|프로그래머스|[디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)|[👉](./02_디스크컨트롤러.py)|⭐️⭐️⭐️|
+|프로그래머스|[이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)|[👉](./03_이중우선순위큐.py)|⭐️⭐️⭐️|
+|백준|[최소 회의실 개수](https://www.acmicpc.net/problem/19598)|[👉](./04_최소회의실개수.py)|💛|
+|백준|[문제 추천 시스템 Version 1](https://www.acmicpc.net/problem/21939)|[👉](./05_문제추천시스템ver1.py)|💛|
 
 <br><br><br>
 ---
