@@ -9,6 +9,7 @@ def solution(operations):
         # 현재 저장된 원소가 없으면 힙 초기화
         if length == 0:
             min_heap, max_heap = [], []
+            valid = {}
 
         command, value = operation.split(' ')
         value = int(value)
@@ -21,11 +22,17 @@ def solution(operations):
 
         elif length > 0: # 삭제
             if value == -1:  # 최솟값 삭제
-                removed = heappop(min_heap)
+                while min_heap:
+                    removed = heappop(min_heap)
+                    if removed in valid:
+                        del valid[removed]
+                        break
             else:  # 최댓값 삭제
-                removed = -heappop(max_heap)
-            if removed in valid:
-                del valid[removed]
+                while max_heap:
+                    removed = -heappop(max_heap)
+                    if removed in valid:
+                        del valid[removed]
+                        break
             length -= 1
 
     answer = []

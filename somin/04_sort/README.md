@@ -4,8 +4,8 @@
 |프로그래머스|[K번째수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)|[👉](./01_K번째수.py)|⭐️★★|
 |프로그래머스|[가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)|[👉](./02_가장큰수.py)|⭐️⭐️★|
 |프로그래머스|[H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)|[👉](./03_HIndex.py)|⭐️⭐️★|
-|백준|[합이 0](https://www.acmicpc.net/problem/3151)|[👉](./04_합이0.py)|🩶|
-|백준|[덩치](https://www.acmicpc.net/problem/7568)|[👉](./05_덩치.py)|💛|
+|백준|[덩치](https://www.acmicpc.net/problem/7568)|[👉](./04_덩치.py)|🩶|
+|백준|[합이 0](https://www.acmicpc.net/problem/3151)|[👉](./05_합이0.py)|💛|
 
 ## 📌 1. 개념 및 정의
 
