@@ -3,6 +3,7 @@
 |프로그래머스|[최소직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)|[👉](./01_최소직사각형.py)|⭐️★★|
 |프로그래머스|[모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)|[👉](./02_모의고사.py)|⭐️★★|
 |프로그래머스|[소수찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)|[👉](./03_소수찾기.py)|⭐️⭐️★|
+|프로그래머스|[카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|[👉](./04_카펫.py)|⭐️⭐️★|
 
 <br><br><br>
 ---
@@ -104,6 +105,3 @@ for i in range(1 << n):  # 1 << n은 2^n을 의미
 > `01` (이진수): `'A'` <br>
 > `10` (이진수): `'B'`<br>
 > `11` (이진수): `'A', 'B'`
-
-
-
