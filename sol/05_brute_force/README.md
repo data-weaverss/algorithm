@@ -4,6 +4,7 @@
 |프로그래머스|[모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)|[👉](./02_모의고사.py)|⭐️★★|
 |프로그래머스|[소수찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)|[👉](./03_소수찾기.py)|⭐️⭐️★|
 |프로그래머스|[카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|[👉](./04_카펫.py)|⭐️⭐️★|
+|프로그래머스|[피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|[👉](./05_피로도.py)|⭐️⭐️★|
 
 <br><br><br>
 ---
