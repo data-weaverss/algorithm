@@ -1,7 +1,6 @@
-from collections import deque
 def solution(m, n, puddles):
-    """집에서 학교까지 갈 수 있는 최단경로의 개수를 
-    1,000,000,007로 나눈 나머지를 return"""
+    """집에서 학교까지 갈 수 있는 최단경로의 개수를 1,000,000,007로 나눈 나머지를 return"""
+
     # 2차원 DP 테이블 초기화 (n+1) x (m+1)
     map = [[0] * (m + 1) for _ in range(n + 1)]
 
@@ -14,9 +13,6 @@ def solution(m, n, puddles):
             if (i, j) in puddle_set:
                 map[i][j] = 0  # 웅덩이는 경로가 없으므로 0으로 설정
                 continue
-            if (i,j) == (1,1): # home
-                map[i][j] = 1
-                continue
             map[i][j] += map[i - 1][j]  # 위에서 오는 경로
             map[i][j] += map[i][j - 1]  # 왼쪽에서 오는 경로
      
@@ -26,4 +22,4 @@ if __name__ == "__main__":
     m, n = 4, 3
     puddles = [[2, 2]]
 
-    print(solution(m, n, puddles))  # 출력: 4mb
+    print(solution(m, n, puddles))  # 4
