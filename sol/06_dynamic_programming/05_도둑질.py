@@ -7,23 +7,18 @@ def solution(money):
     Returns:
     - 훔칠 수 있는 돈의 최댓값
     """
-    max_dp = [[0] * len(money) for _ in range(len(money))]
+    include_first, include_last = money[:-1], money[1:]
     
-    for i in range(len(money)):
-        max_dp[i][i] = money[i]
-        
-    for i in range(len(money)):
-        for j in range(i+2, len(money)):
-            if i == 0 and j == len(money) - 1:
-                break
-            max_dp[i][j] = max(max_dp[i][max(j-3, i)], max_dp[i][j-2]) + max_dp[j][j]
+    for i in range(2, len(include_first)):
+        if i == 2:
+            include_first[i] = include_first[0] + include_first[2]
+            include_last[i] = include_last[0] + include_last[2]
+            continue
+        include_first[i] = max(include_first[i-3], include_first[i-2]) + include_first[i]
+        include_last[i] = max(include_last[i-3], include_last[i-2]) + include_last[i]
     
-    answer = 0
-    for i in range(len(max_dp)):
-        answer = max(answer, max(max_dp[i]))
-    
-    return answer
+    return max(max(include_first), max(include_last))
 
 if __name__ == "__main__":
-    money = [1, 0, 8, 5, 3, 7, 3]
+    money = [10, 20, 30, 40]
     print(solution(money)) #15
