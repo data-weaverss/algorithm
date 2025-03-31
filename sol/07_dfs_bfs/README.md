@@ -1,7 +1,8 @@
 ||문제|풀이|난이도|
 |--|--|--|--|
 |프로그래머스|[타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)|[👉](./01_타겟넘버.py)|⭐️⭐️|
-|프로그래머스|[게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)|[👉](./02_게임맵최단거리.py)|⭐️⭐️|
+|프로그래머스|[네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)|[👉](./02_네트워크.py)|⭐️⭐️⭐️|
+|프로그래머스|[게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)|[👉](./03_게임맵최단거리.py)|⭐️⭐️|
 
 <br><br><br>
 ---
@@ -21,7 +22,7 @@ def dfs(cur_node):
 
 A 방문
 - Stack: B C
-- Visted: {A}
+- Visited: {A}
 ```plain
     A*
    / \
@@ -32,7 +33,7 @@ D   E   F
 
 C 방문
 - Stack: B F
-- Visted: {A, C}
+- Visited: {A, C}
 ```plain
     A
    / \
@@ -43,7 +44,7 @@ D   E   F
 
 F 방문
 - Stack: B 
-- Visted: {A, C, F}
+- Visited: {A, C, F}
 ```plain
     A
    / \
@@ -54,7 +55,7 @@ D   E   F*
 
 B 방문
 - Stack: D E 
-- Visted: {A, C, F, B}
+- Visited: {A, C, F, B}
 ```plain
     A
    / \
@@ -82,7 +83,7 @@ def bfs(graph, start):
 ```
 
 - Queue: A
-- Visted: {A}
+- Visited: {A}
 ```plain
     A
    / \
@@ -93,7 +94,7 @@ D   E   F
 
 A를 방문
 - Queue: B, C
-- Visted: {A, B, C}
+- Visited: {A, B, C}
 ```plain
     A*
    / \
@@ -104,7 +105,7 @@ D   E   F
 
 B를 방문
 - Queue: C, D, E
-- Visted: {A, B, C, D, E}
+- Visited: {A, B, C, D, E}
 ```plain
     A
    / \
@@ -115,7 +116,7 @@ D   E   F
 
 C를 방문
 - Queue: D, E, F
-- Visted: {A, B, C, D, E, F}
+- Visited: {A, B, C, D, E, F}
 ```plain
     A
    / \
