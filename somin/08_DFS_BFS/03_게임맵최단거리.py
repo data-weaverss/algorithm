@@ -26,9 +26,12 @@ def solution(maps):
                 maps[next_r][next_c] = maps[curr_r][curr_c] + 1
                 visited.add((next_r, next_c))
                 q.append((next_r, next_c))
+            
+            if next_r == n-1 and next_c == m-1:
+                return maps[n-1][m-1]
 
-    # 도착 지점이 visited에 없다면 도달 불가능
-    return maps[n-1][m-1] if (n-1, m-1) in visited else -1
+    # 마지막까지 도달하지 못했을 때
+    return -1
 
 if __name__ == "__main__":
     maps = [[1,0,1,1,1],
