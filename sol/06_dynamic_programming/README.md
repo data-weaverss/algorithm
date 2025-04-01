@@ -4,6 +4,7 @@
 |프로그래머스|[정수삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105)|[👉](./02_정수삼각형.py)|⭐️⭐️⭐️|
 |프로그래머스|[등굣길](https://school.programmers.co.kr/learn/courses/30/lessons/42898)|[👉](./03_등굣길.py)|⭐️⭐️⭐️|
 |프로그래머스|[사칙연산](https://school.programmers.co.kr/learn/courses/30/lessons/1843)|[👉](./04_사칙연산.py)|⭐️⭐️⭐️⭐️|
+|프로그래머스|[도둑질](https://school.programmers.co.kr/learn/courses/30/lessons/42897)|[👉](./05_도둑질.py)|⭐️⭐️⭐️⭐️|
 
 <br><br><br>
 ---
@@ -97,7 +98,6 @@ count_paths(3, 4)
 │        │  └─ count_paths(2, 0) → 범위 밖
 │        └─ count_paths(3, 0) → 범위 밖
 ```
-
 
 ---
 ## 04_사칙연산 
