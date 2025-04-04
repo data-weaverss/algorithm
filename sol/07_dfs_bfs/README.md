@@ -5,6 +5,7 @@
 |프로그래머스|[게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)|[👉](./03_게임맵최단거리.py)|⭐️⭐️|
 |프로그래머스|[단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)|[👉](./04_단어변환.py)|⭐️⭐️⭐️|
 |프로그래머스|[아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)|[👉](./05_아이템줍기.py)|⭐️⭐️⭐️|
+|프로그래머스|[여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)|[👉](./06_여행경로.py)|⭐️⭐️⭐️|
 
 <br><br><br>
 ---
