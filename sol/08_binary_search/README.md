@@ -96,6 +96,8 @@ print(f"Left Index: {left_index}, Right Index: {right_index}") # 2, 3
 
 ---
 
+<br><br>
+
 # 01_입국심사
 
 | 단계 | start | end | mid | 처리 가능한 총 인원 (total_people) | 조건 (total_people >= n) | 탐색 방향 | 최소 시간 (min_time) |

@@ -31,7 +31,7 @@ def solution(n, times):
     # 이분 탐색의 시작 범위: 가장 짧은 심사 시간
     start = times[0]
     # 이분 탐색의 끝 범위: 가장 긴 심사 시간이 모든 사람을 처리하는 경우
-    end = times[-1] * n
+    end = times[0] * n
     
     return binary_search_recursive(times, n, start, end, start)
 
