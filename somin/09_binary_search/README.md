@@ -1,5 +1,5 @@
 <!-- https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit -->
-## 💡 DFS/BFS 문제 목록
+## 💡 이진 탐색 문제 목록
 
 | 출처 | 문제 | 풀이 | 난이도 |
 |--|--|--|--|
@@ -29,7 +29,7 @@
 
 ---
 
-## 3. 이분탐색 구현 예시
+## 3. 이진탐색 구현 예시
 
 ### 비재귀적(반복문) 이진 탐색:
 
@@ -59,9 +59,9 @@ def binary_search(arr, target, first, last):
     if arr[mid] == target:
         return mid
     elif target < arr[mid]:
-        return bSearch(arr, target, first, mid - 1)
+        return binary_search(arr, target, first, mid - 1)
     else:
-        return bSearch(arr, target, mid + 1, last)
+        return binary_search(arr, target, mid + 1, last)
 ```
 
 ---
