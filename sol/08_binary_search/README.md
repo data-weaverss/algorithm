@@ -3,6 +3,9 @@
 |프로그래머스|[입국 심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238)|[👉](./01_입국심사.py)|⭐️⭐️⭐️|
 |프로그래머스|[징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236)|[👉](./02_징검다리.py)|⭐️⭐️⭐️⭐️|
 |백준|[수 찾기](https://www.acmicpc.net/problem/1920)|[👉](./03_수찾기.py)|🩶🩶🩶🩶|
+|백준|[랜선 자르기](https://www.acmicpc.net/problem/1654)|[👉](./04_랜선자르기.py)|🩶🩶|
+
+
 <br><br><br>
 ---
 <br><br>
