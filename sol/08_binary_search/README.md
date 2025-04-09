@@ -2,6 +2,7 @@
 |--|--|--|--|
 |프로그래머스|[입국 심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238)|[👉](./01_입국심사.py)|⭐️⭐️⭐️|
 |프로그래머스|[징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236)|[👉](./02_징검다리.py)|⭐️⭐️⭐️⭐️|
+|백준|[수 찾기](https://www.acmicpc.net/problem/1920)|[👉](./03_수찾기.py)|🩶🩶🩶🩶|
 <br><br><br>
 ---
 <br><br>
@@ -114,7 +115,7 @@ print(f"Left Index: {left_index}, Right Index: {right_index}") # 2, 3
 # 02_징검다리
 
 > 💡 핵심 아이디어
-> 최솟값 중 최댓값을 구하라는 건 **이분 탐색으로 최솟값을 조정"하면서 가능한지를 판단해야한다는 뜻
+> 최솟값 중 최댓값을 구하라는 건 **이분 탐색으로 최솟값을 조정**하면서 가능한지를 판단해야한다는 뜻
 
 ## 풀이흐름
 
