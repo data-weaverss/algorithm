@@ -4,6 +4,7 @@
 |프로그래머스|[징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236)|[👉](./02_징검다리.py)|⭐️⭐️⭐️⭐️|
 |백준|[수 찾기](https://www.acmicpc.net/problem/1920)|[👉](./03_수찾기.py)|🩶🩶🩶🩶|
 |백준|[랜선 자르기](https://www.acmicpc.net/problem/1654)|[👉](./04_랜선자르기.py)|🩶🩶|
+|백준|[가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015)|[👉](./05_가장긴증가하는부분수열2.py)|💛💛|
 
 
 <br><br><br>
