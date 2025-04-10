@@ -5,6 +5,11 @@
 |--|--|--|--|
 | 프로그래머스 | [입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238) | [👉 코드 보기](./01_입국심사.py) | ⭐️⭐️⭐️ |
 | 프로그래머스 | [징검다리](https://school.programmers.co.kr/learn/courses/30/lessons/43236) | [👉 코드 보기](./02_징검다리.py) | ⭐️⭐️⭐️⭐️ |
+| 백준 | [수 찾기](https://www.acmicpc.net/problem/1920) | [👉 코드 보기](./03_수찾기.py) | 🩶 | 
+| 백준 | [랜선 자르기](https://www.acmicpc.net/problem/1654) | [👉 코드 보기](./04_랜선자르기.py) | 🩶 |
+| 백준 | [공유기 설치](https://www.acmicpc.net/problem/2110) | [👉 코드 보기](./05_공유기설치.py) | 💛 |
+| 백준 | [K번째 수](https://www.acmicpc.net/problem/1300) | [👉 코드 보기](./06_K번째수.py) | 💛 |
+| 백준 | [가장 긴 증가하는 부분 수열 2](https://www.acmicpc.net/problem/12015) | [👉 코드 보기](./07_가장긴증가하는부분수열2.py) | 💛 |
 ---
 
 ## 📌 1. 이진 탐색 (Binary Search)이란?
