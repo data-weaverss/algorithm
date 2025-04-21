@@ -4,7 +4,7 @@
 |프로그래머스|[순위](https://school.programmers.co.kr/learn/courses/30/lessons/49191)|[👉](./02_순위.py)|⭐️⭐️⭐️|
 |백준|[최소 스패닝 트리](https://www.acmicpc.net/problem/1197)|[👉](./03_최소스패닝트리.py)|💛💛💛💛|
 |백준|[ACM Craft](https://www.acmicpc.net/problem/1005)|[👉](./04_ACMCraft.py)|💛💛💛|
-|프로그래머스|[방의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/49190)|[👉](./03_방의개수.py)|⭐️⭐️⭐️⭐️⭐️|
+|프로그래머스|[방의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/49190)|[👉](./05_방의개수.py)|⭐️⭐️⭐️⭐️⭐️|
 
 
 
@@ -300,3 +300,20 @@ def bellman_ford(n, edges, start):
 
 → 벨만포드는 N-1번 반복 후 N번째에 값이 바뀌면 음수 사이클로 판단
 ```
+
+
+---
+
+# 05_방의개수
+
+## 핵심 개념
+
+|개념|설명|
+|----|----|
+|visited_nodes|지금까지 도착한 위치 (x, y) 저장|
+|visited_edges|이동한 간선(start, end) 저장|
+|사이클 생성 조건| 이미 방문한 노드인데 **새로운 간선을 통해** 재방문하면 사이클 생성|
+
+##  x, y 두 배 해야하는 이유
+
+![alt text](./image/05_방의개수.jpeg)
