@@ -34,7 +34,7 @@ def count_color(N, candies):
 def solution(N, candies):
     answer = 0
     
-    adj = [(-1, 0), (0, -1), (0, 1), (1, 0)]
+    adj = [(0, 1), (1, 0)]
     
     for i in range(N):
         for j in range(N):
