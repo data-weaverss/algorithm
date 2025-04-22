@@ -1,4 +1,5 @@
 from collections import defaultdict
+
 def solution(n, results):
     """
     Parameters:
@@ -14,11 +15,12 @@ def solution(n, results):
         lose[winner].add(loser)
 
     # lose + win 개수 == n-1 이면 순위 확정
-    for i in range(1, n+1):
+    for i in range(1, n+1): 
         for winner in win[i]:
             lose[winner].update(lose[i])
         for loser in lose[i]:
             win[loser].update(win[i])
+            
     answer = 0
     for i in range(1, n+1):
         if len(win[i]) + len(lose[i]) == n-1:
