@@ -6,7 +6,8 @@
 |[카잉 달력](https://www.acmicpc.net/problem/6064)|[👉](./04_카잉달력.py)|🩶|수학|
 |[테트로미노](https://www.acmicpc.net/problem/14500)|[👉](./05_테트로미노.py)|💛💛💛💛|구현|
 |[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|[👉](./06_연산자_끼워넣기.py)|🩶|재귀, 완전 탐색|
-|[괄호의 값](https://www.acmicpc.net/problem/2504)|[👉](./07_괄호의 값.py)|💛💛💛💛💛|스택|
+|[괄호의 값](https://www.acmicpc.net/problem/2504)|[👉](./07_괄호의값.py)|💛💛💛💛💛|스택|
+|[빗물](https://www.acmicpc.net/problem/14719)|[👉](./08_빗물.py)|💛💛💛💛💛|구현|
 
 
 <br><br><br>
