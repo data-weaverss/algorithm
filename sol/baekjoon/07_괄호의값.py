@@ -37,11 +37,11 @@ def solution(parentheses):
                 sub_value = 0
                 while stack and type(stack[-1]) == type(1):
                     sub_value += stack.pop()
-                if stack and stack[-1] == paren_map[paren]:
+                if stack and stack[-1] == paren_map[paren]: # 숫자들을 계산하고 짝을 만났다면
                     stack.pop()
                     sub_value *= paren_value[paren]
                     stack.append(sub_value)
-                else:
+                else: # 숫자들을 계산하고도 짝을 못 만났다면 
                     return 0
     answer = 0
     while stack:
