@@ -8,6 +8,8 @@
 |[연산자 끼워넣기](https://www.acmicpc.net/problem/14888)|[👉](./06_연산자_끼워넣기.py)|🩶|재귀, 완전 탐색|
 |[괄호의 값](https://www.acmicpc.net/problem/2504)|[👉](./07_괄호의값.py)|💛💛💛💛💛|스택|
 |[빗물](https://www.acmicpc.net/problem/14719)|[👉](./08_빗물.py)|💛💛💛💛💛|구현|
+|[가르침](https://www.acmicpc.net/problem/1062)|[👉](./09_가르침.py)|💛💛💛💛||
+
 
 
 <br><br><br>
