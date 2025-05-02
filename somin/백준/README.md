@@ -10,6 +10,9 @@
 | 백준 | [테트로미노](https://www.acmicpc.net/problem/14500) | [👉 코드 보기](./05_테트로미노.py) | 💛 |
 | 백준 | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | [👉 코드 보기](./06_연산자끼워넣기.py) | 🩶 |
 | 백준 | [괄호의 값](https://www.acmicpc.net/problem/2504) | [👉 코드 보기](./07_괄호의값.py) | 💛 |
+| 백준 | [빗물](https://www.acmicpc.net/problem/14719) | [👉 코드 보기](./08_빗물.py) | 💛 |
+| 백준 | [가르침](https://www.acmicpc.net/problem/1062) | [👉 코드 보기](./09_가르침.py) | 💛 |
+
 
 ---
 

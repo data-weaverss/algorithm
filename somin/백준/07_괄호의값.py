@@ -6,6 +6,7 @@ def cal_values(arr):
     for a in arr:
         if a == '(' or a == '[':
             stack.append(a)
+            
         elif a == ')':
             temp = 0
             while stack:
@@ -35,7 +36,7 @@ def cal_values(arr):
             else: # 짝이 없는 경우
                 return 0        
             stack.append(temp)
-            
+
         else:
             return 0
         
