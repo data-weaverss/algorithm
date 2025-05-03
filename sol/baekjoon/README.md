@@ -19,7 +19,7 @@
 
 # 가르침 문제 - 비트 마스크
 - 집합을 효율적으로 다룰 수 있음(특히 부분집합 확인 문제)
-- set의 in 연산, add, remove는 O(1)이지만, 차집합, 합집합, 교집합은 두 set 크기에 비례하는 O(len) 시간이 걸ㄹ침
+- set의 in 연산, add, remove는 O(1)이지만, 차집합, 합집합, 교집합은 두 set 크기에 비례하는 O(len) 시간이 걸림
 
 ```python
 mask = sum(1 << (ord(c) - ord('a')) for c in combo)
