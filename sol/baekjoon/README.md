@@ -9,6 +9,7 @@
 |[괄호의 값](https://www.acmicpc.net/problem/2504)|[👉](./07_괄호의값.py)|💛💛💛💛💛|스택|
 |[빗물](https://www.acmicpc.net/problem/14719)|[👉](./08_빗물.py)|💛💛💛💛💛|구현|
 |[가르침](https://www.acmicpc.net/problem/1062)|[👉](./09_가르침.py)|💛💛💛💛|완전 탐색, 비트마스크|
+|[멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)|[👉](./10_멀티탭스케줄링.py)|💛|그리디|
 
 
 
