@@ -12,6 +12,7 @@
 | 백준 | [괄호의 값](https://www.acmicpc.net/problem/2504) | [👉 코드 보기](./07_괄호의값.py) | 💛 |
 | 백준 | [빗물](https://www.acmicpc.net/problem/14719) | [👉 코드 보기](./08_빗물.py) | 💛 |
 | 백준 | [가르침](https://www.acmicpc.net/problem/1062) | [👉 코드 보기](./09_가르침.py) | 💛 |
+| 백준 | [멀티탭 스케줄링](https://www.acmicpc.net/problem/1700) | [👉 코드 보기](./10_멀티탭스케줄링.py) | 💛 |
 
 
 ---
