@@ -2,8 +2,15 @@ import sys
 from collections import defaultdict, deque
 
 def solution(n, k, order):
-    """멀티탭 콘센트를 바꾸는 최소횟수"""
-    # 용품별 사용 순서
+    """
+    Parameters:
+        n: 멀티탭 구멍의 개수
+        k: 전자기기 사용 횟수
+        order: 전자기기 사용 순서
+    Returns:
+        최소한의 플러그 교체 횟수
+    """
+    # 기기별 사용 순서
     order_dict = defaultdict(deque)
     for idx, device in enumerate(order):
         order_dict[device].append(idx)
@@ -11,8 +18,9 @@ def solution(n, k, order):
     multitap = []
     switch_cnt = 0
 
-    for i in range(k): # 콘센트 사용 순섭 용품을 모두 순회
-        curr = order[i] # 사용해야 할 용품
+    # 플러그 사용 순서 순회하면서 교체 횟수 계산
+    for i in range(k): 
+        curr = order[i] # 사용해야 할 기기
         order_dict[curr].popleft()
 
         if curr in multitap:
@@ -37,7 +45,7 @@ def solution(n, k, order):
         multitap.remove(to_remove)
         multitap.append(curr)
         switch_cnt += 1
-        
+
     return switch_cnt
 
 if __name__ == "__main__":
