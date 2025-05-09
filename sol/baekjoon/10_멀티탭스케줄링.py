@@ -28,12 +28,10 @@ def solution(num_plugs, items_order):
     총 시간 복잡도: O(10000log(100))
     핵심 아이디어: 지금 위치에서 가장 늦게 등장하는 아이템부터 제거 -> 그리디
     """  
-    
-    # count 를 min_heap
     plugged_in = []
     plugged_in_items = {}
     
-    # items의 딕셔너리로 items 가 쓰이는 횟수를 저장
+    # items의 딕셔너리로 items 가 쓰이는 순서를 저장
     item_charge_order = defaultdict(list)
     for order, item in enumerate(items_order): # O(100)
         if len(item_charge_order[item]) == 0:
@@ -49,7 +47,7 @@ def solution(num_plugs, items_order):
     for item in items_order: # O(100)
         item_charge_order[item].pop()
         if item not in plugged_in_items or not plugged_in_items[item]:
-            if len(plugged_in) >= num_plugs:
+            if len(plugged_in) >= num_plugs: # 플러그가 다 사용되고 있다면
                 # O(100log(100))
                 # 가장 늦게 등장하는 아이템부터 제거하기 위한 정렬
                 # item_charge_order[key] = [101] -> 앞으로 다시 사용되지 않을 플러그를 의미

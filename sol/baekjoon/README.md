@@ -10,11 +10,11 @@
 |[빗물](https://www.acmicpc.net/problem/14719)|[👉](./08_빗물.py)|💛💛💛💛💛|구현|
 |[가르침](https://www.acmicpc.net/problem/1062)|[👉](./09_가르침.py)|💛💛💛💛|완전 탐색, 비트마스크|
 |[멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)|[👉](./10_멀티탭스케줄링.py)|💛|그리디|
-
+|[부분합](https://www.acmicpc.net/problem/1806)|[👉](./11_부분합.py)|💛💛💛💛|큐|
+|[최소비용 구하기](https://www.acmicpc.net/problem/1916)|[👉](./12_최소비용구하기-다익스트라.py)|💛💛💛💛💛|다익스트라, 벨만포드|
 
 
 <br><br><br>
-
 
 --- 
 
