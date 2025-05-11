@@ -12,6 +12,8 @@
 |[멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)|[👉](./10_멀티탭스케줄링.py)|💛|그리디|
 |[부분합](https://www.acmicpc.net/problem/1806)|[👉](./11_부분합.py)|💛💛💛💛|큐|
 |[최소비용 구하기](https://www.acmicpc.net/problem/1916)|[👉](./12_최소비용구하기-다익스트라.py)|💛💛💛💛💛|다익스트라, 벨만포드|
+|[부분 문자열](https://www.acmicpc.net/problem/16916)|[👉](./13_부분문자열.py)|🤎|문자열 in|
+|[줄 세우기](https://www.acmicpc.net/problem/2252)|[👉](./14_줄세우기.py)|💛💛💛|위상정렬|
 
 
 <br><br><br>
