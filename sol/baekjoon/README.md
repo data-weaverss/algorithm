@@ -15,6 +15,7 @@
 |[부분 문자열](https://www.acmicpc.net/problem/16916)|[👉](./13_부분문자열.py)|🤎|문자열 in|
 |[줄 세우기](https://www.acmicpc.net/problem/2252)|[👉](./14_줄세우기.py)|💛💛💛|위상정렬|
 |[iSharp](https://www.acmicpc.net/problem/3568)|[👉](./15_isharp.py)|🩶🩶🩶|스택, 구현|
+|[신기한 소수](https://www.acmicpc.net/problem/2023)|[👉](./16_신기한소수.py)|💛💛💛💛💛|dfs|
 
 <br><br><br>
 
