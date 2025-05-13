@@ -13,7 +13,10 @@
 | 백준 | [빗물](https://www.acmicpc.net/problem/14719) | [👉 코드 보기](./08_빗물.py) | 💛 |
 | 백준 | [가르침](https://www.acmicpc.net/problem/1062) | [👉 코드 보기](./09_가르침.py) | 💛 |
 | 백준 | [멀티탭 스케줄링](https://www.acmicpc.net/problem/1700) | [👉 코드 보기](./10_멀티탭스케줄링.py) | 💛 |
-
+| 백준 | [부분합](https://www.acmicpc.net/problem/1806) | [👉 코드 보기](./11_부분합.py) | 💛 |
+| 백준 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [👉 코드 보기](./12_최소비용구하기.py) | 💛 |
+| 백준 | [부분 문자열](https://www.acmicpc.net/problem/16916) | [👉 코드 보기](./13_부분문자열.py) | 💛 |
+| 백준 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [👉 코드 보기](./14_줄세우기.py) | 💛 |
 
 ---
 
