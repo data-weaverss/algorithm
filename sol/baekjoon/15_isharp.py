@@ -1,5 +1,4 @@
 import sys
-from collections import defaultdict, deque
 
 def solution(declares):
     """
@@ -10,9 +9,6 @@ def solution(declares):
     declares: ['int&', 'a*[]&,', 'b,', 'c*';
     - declares[0] = 기본 변수형 + 추가적인 변수형
     - declares[1:] = 변수 선언
-    
-    총 시간 복잡도: O(10^5)
-    핵심 아이디어: 위상 정렬 -> 진입 차수가 0인 것만 큐에 넣어서 줄을 세운다. 
     """  
     
     answer = []
