@@ -21,7 +21,7 @@ def solution(input_str):
                 name += ch
             else:
                 if ch == ']':
-                    postfix = '[]' + postfix # []는 한 쌍으로 추가
+                    postfix = '[]' + postfix # 한 쌍으로 추가
                 elif ch == '[':
                     continue      
                 else: # 나머지 기호 역순으로

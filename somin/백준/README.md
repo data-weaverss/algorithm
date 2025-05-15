@@ -17,8 +17,10 @@
 | 백준 | [최소비용 구하기](https://www.acmicpc.net/problem/1916) | [👉 코드 보기](./12_최소비용구하기.py) | 💛 |
 | 백준 | [부분 문자열](https://www.acmicpc.net/problem/16916) | [👉 코드 보기](./13_부분문자열.py) | 💛 |
 | 백준 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [👉 코드 보기](./14_줄세우기.py) | 💛 |
-| 백준 | [iSharp](https://www.acmicpc.net/problem/3568) | [👉 코드 보기](./15_iSharp.py) | 🩶 |
-| 백준 | [신기한 소수](https://www.acmicpc.net/problem/2023) | [👉 코드 보기](./16_신기한소수.py) | 💛 |
+| 백준 | [iSharp](https://www.acmicpc.net/problem/3568) | [👉 코드 보기](./15_iSharp.py) | 🩶🩶🩶🩶🩶 |
+| 백준 | [신기한 소수](https://www.acmicpc.net/problem/2023) | [👉 코드 보기](./16_신기한소수.py) | 💛💛💛💛💛 |
+| 백준 | [CPU](https://www.acmicpc.net/problem/16506) | [👉 코드 보기](./17_CPU.py) | 🩶🩶🩶🩶🩶 |
+| 백준 | [LCD Test](https://www.acmicpc.net/problem/2290) | [👉 코드 보기](./18_LCDTest.py) | 🩶🩶 |
 
 ---
 
