@@ -23,15 +23,15 @@ def solution(board, n, m):
             return -1
 
         for dr, dc in directions:
-            nc1 = [c1[0]+dr, c1[1]+dc]
-            nc2 = [c2[0]+dr, c2[1]+dc]
+            nc1 = (c1[0]+dr, c1[1]+dc)
+            nc2 = (c2[0]+dr, c2[1]+dc)
             
             nc1_fall = not (0 <= nc1[0] < n and 0 <= nc1[1] < m)
             nc2_fall = not (0 <= nc2[0] < n and 0 <= nc2[1] < m)
 
             if nc1_fall and nc2_fall: # 둘 다 떨어지는 경우
                 continue
-            if nc2_fall or nc2_fall: # 하나만 떨어지는 경우
+            if nc1_fall or nc2_fall: # 하나만 떨어지는 경우
                 return count + 1
             
             # 벽을 만났을 때, 
@@ -55,4 +55,4 @@ if __name__ == "__main__":
         row = list(sys.stdin.readline().strip())
         board.append(row)
 
-    solution(board, n, m)
+    print(solution(board, n, m))
