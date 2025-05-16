@@ -21,7 +21,7 @@
 | 백준 | [신기한 소수](https://www.acmicpc.net/problem/2023) | [👉 코드 보기](./16_신기한소수.py) | 💛💛💛💛💛 |
 | 백준 | [CPU](https://www.acmicpc.net/problem/16506) | [👉 코드 보기](./17_CPU.py) | 🩶🩶🩶🩶🩶 |
 | 백준 | [LCD Test](https://www.acmicpc.net/problem/2290) | [👉 코드 보기](./18_LCDTest.py) | 🩶🩶 |
-
+| 백준 | [두 동전](https://www.acmicpc.net/problem/16197) | [👉 코드 보기](./19_두동전.py) | 💛💛💛💛 |
 ---
 
 ## 참고 사이트
