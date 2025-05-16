@@ -41,3 +41,10 @@ mask = sum(1 << (ord(c) - ord('a')) for c in combo)
 3. 비트 합산
     - `sum()`으로 모든 문자에 대한 비트를 합침
     - 예: `combo= a, c` -> `1(0001) + 4(0100) = 5(0101)`
+
+
+---
+
+# LCDTest 문제
+
+![alt text](./image/LCDTest.jpeg)
