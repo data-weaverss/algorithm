@@ -16,6 +16,9 @@
 |[줄 세우기](https://www.acmicpc.net/problem/2252)|[👉](./14_줄세우기.py)|💛💛💛|위상정렬|
 |[iSharp](https://www.acmicpc.net/problem/3568)|[👉](./15_isharp.py)|🩶🩶🩶|스택, 구현|
 |[신기한 소수](https://www.acmicpc.net/problem/2023)|[👉](./16_신기한소수.py)|💛💛💛💛💛|dfs|
+|[CPU](https://www.acmicpc.net/problem/16506)|[👉](./17_CPU.py)|🩶🩶🩶🩶🩶|구현|
+|[LCD Test](https://www.acmicpc.net/problem/2290)|[👉](./18_LCDTest.py)|🩶🩶|구현|
+|[두 동전](https://www.acmicpc.net/problem/16197)|[👉](./19_두동전.py)|💛💛💛💛|bfs|
 
 <br><br><br>
 
