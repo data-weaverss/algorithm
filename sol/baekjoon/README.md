@@ -10,11 +10,17 @@
 |[빗물](https://www.acmicpc.net/problem/14719)|[👉](./08_빗물.py)|💛💛💛💛💛|구현|
 |[가르침](https://www.acmicpc.net/problem/1062)|[👉](./09_가르침.py)|💛💛💛💛|완전 탐색, 비트마스크|
 |[멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)|[👉](./10_멀티탭스케줄링.py)|💛|그리디|
-
-
+|[부분합](https://www.acmicpc.net/problem/1806)|[👉](./11_부분합.py)|💛💛💛💛|큐|
+|[최소비용 구하기](https://www.acmicpc.net/problem/1916)|[👉](./12_최소비용구하기-다익스트라.py)|💛💛💛💛💛|다익스트라, 벨만포드|
+|[부분 문자열](https://www.acmicpc.net/problem/16916)|[👉](./13_부분문자열.py)|🤎|문자열 in|
+|[줄 세우기](https://www.acmicpc.net/problem/2252)|[👉](./14_줄세우기.py)|💛💛💛|위상정렬|
+|[iSharp](https://www.acmicpc.net/problem/3568)|[👉](./15_isharp.py)|🩶🩶🩶|스택, 구현|
+|[신기한 소수](https://www.acmicpc.net/problem/2023)|[👉](./16_신기한소수.py)|💛💛💛💛💛|dfs|
+|[CPU](https://www.acmicpc.net/problem/16506)|[👉](./17_CPU.py)|🩶🩶🩶🩶🩶|구현|
+|[LCD Test](https://www.acmicpc.net/problem/2290)|[👉](./18_LCDTest.py)|🩶🩶|구현|
+|[두 동전](https://www.acmicpc.net/problem/16197)|[👉](./19_두동전.py)|💛💛💛💛|bfs|
 
 <br><br><br>
-
 
 --- 
 
@@ -38,3 +44,10 @@ mask = sum(1 << (ord(c) - ord('a')) for c in combo)
 3. 비트 합산
     - `sum()`으로 모든 문자에 대한 비트를 합침
     - 예: `combo= a, c` -> `1(0001) + 4(0100) = 5(0101)`
+
+
+---
+
+# LCDTest 문제
+
+![alt text](./image/LCDTest.jpeg)
