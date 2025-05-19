@@ -19,6 +19,7 @@
 |[CPU](https://www.acmicpc.net/problem/16506)|[👉](./17_CPU.py)|🩶🩶🩶🩶🩶|구현|
 |[LCD Test](https://www.acmicpc.net/problem/2290)|[👉](./18_LCDTest.py)|🩶🩶|구현|
 |[두 동전](https://www.acmicpc.net/problem/16197)|[👉](./19_두동전.py)|💛💛💛💛|bfs|
+|[Puyo Puyo](https://www.acmicpc.net/problem/11559)|[👉](./20_puyopuyo.py)|💛💛💛💛💛|bfs/dfs, 시뮬레이션(중력 구현)|
 
 <br><br><br>
 
@@ -51,3 +52,5 @@ mask = sum(1 << (ord(c) - ord('a')) for c in combo)
 # LCDTest 문제
 
 ![alt text](./image/LCDTest.jpeg)
+
+![alt text](./image/LCDTest1.png)
