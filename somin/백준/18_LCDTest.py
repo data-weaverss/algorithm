@@ -9,11 +9,11 @@ def solution(s, numbers):
     |       |
     f       b
     |       |
-    -- g --
+     -- g --
     |       |
     e       c
     |       |
-    -- d --
+     -- d --
     """
 
     SEGMENTS = {

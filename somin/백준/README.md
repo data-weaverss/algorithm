@@ -22,6 +22,7 @@
 | 백준 | [CPU](https://www.acmicpc.net/problem/16506) | [👉 코드 보기](./17_CPU.py) | 🩶🩶🩶🩶🩶 |
 | 백준 | [LCD Test](https://www.acmicpc.net/problem/2290) | [👉 코드 보기](./18_LCDTest.py) | 🩶🩶 |
 | 백준 | [두 동전](https://www.acmicpc.net/problem/16197) | [👉 코드 보기](./19_두동전.py) | 💛💛💛💛 |
+| 백준 | [Puyo Puyo](https://www.acmicpc.net/problem/11559) | [👉 코드 보기](./20_PuyoPuyo.py) | 💛💛💛💛 |
 ---
 
 ## 참고 사이트
