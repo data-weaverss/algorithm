@@ -20,6 +20,7 @@
 |[LCD Test](https://www.acmicpc.net/problem/2290)|[👉](./18_LCDTest.py)|🩶🩶|구현|
 |[두 동전](https://www.acmicpc.net/problem/16197)|[👉](./19_두동전.py)|💛💛💛💛|bfs|
 |[Puyo Puyo](https://www.acmicpc.net/problem/11559)|[👉](./20_puyopuyo.py)|💛💛💛💛💛|bfs/dfs, 시뮬레이션(중력 구현)|
+|[Strahler 순서](https://www.acmicpc.net/problem/9470)|[👉](./21_strahler_순서.py)|💛💛💛|위상정렬|
 
 <br><br><br>
 
