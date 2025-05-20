@@ -49,7 +49,9 @@ def solution(board):
         to_pop = set()
 
         # 보드 전체 탐색하여 터뜨릴 블록 그룹 수집
-        for r in range(12):
+        for r in range(11, -1, -1):
+            if board[r] == ['.'] * 6:
+                break
             for c in range(6):
                 if board[r][c] != '.' and (r, c) not in visited:
                     group = bfs((r, c), board[r][c], board, visited)
