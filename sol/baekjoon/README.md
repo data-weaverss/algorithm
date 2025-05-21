@@ -22,6 +22,7 @@
 |[Puyo Puyo](https://www.acmicpc.net/problem/11559)|[👉](./20_puyopuyo.py)|💛💛💛💛💛|bfs/dfs, 시뮬레이션(중력 구현)|
 |[Strahler 순서](https://www.acmicpc.net/problem/9470)|[👉](./21_strahler_순서.py)|💛💛💛|위상정렬|
 |[미네랄](https://www.acmicpc.net/problem/2933)|[👉](./22_미네랄.py)|💛💛💛|bfs, 시뮬레이션|
+|[사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533)|[👉](./23_sns.py)|💛💛💛|dfs|
 
 <br><br><br>
 

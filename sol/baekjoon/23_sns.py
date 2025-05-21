@@ -1,14 +1,8 @@
 import sys
 from collections import defaultdict
-from heapq import heappush, heappop
+import sys
 
-def spread(graph, nonearly_adj_cnt, node, heap=None):
-    nonearly_adj_cnt[node] = 0
-    for adj_node in graph[node]:
-        nonearly_adj_cnt[adj_node] -= 1
-        if heap:
-            if nonearly_adj_cnt[adj_node] > 0:
-                heappush(heap, (-nonearly_adj_cnt[adj_node], adj_node))
+sys.setrecursionlimit(10**6) 
 
 def solution(nodes, edges):
     """
@@ -17,39 +11,48 @@ def solution(nodes, edges):
     
     2 <= nodes <= 1,000,000
     
-    총 시간 복잡도: 
-    핵심 아이디어: 
+    총 시간 복잡도: O(10^6)
+    핵심 아이디어: dfs, 
     """  
-    adapter = set()
-    nonearly_adj_cnt = defaultdict(int)
-    
     graph = defaultdict(list)
     for u, v in edges:
         graph[u].append(v)
         graph[v].append(u)
-        nonearly_adj_cnt[u] += 1
-        nonearly_adj_cnt[v] += 1
-    
-    heap = []
-    for node, adj_nodes in graph.items():
-        if len(adj_nodes) == 1 and nonearly_adj_cnt[adj_nodes[0]] > 0:
-            adapter.add(adj_nodes[0])
-            spread(graph, nonearly_adj_cnt, adj_nodes[0])
-    
-    for node, adj_cnt in nonearly_adj_cnt.items():
-        if adj_cnt > 0:
-            heappush(heap, (-adj_cnt, node))
-        
-    while heap:
-        value, node = heappop(heap)
-        if nonearly_adj_cnt[node] != -value: continue
-        if nonearly_adj_cnt[node] <= 0: continue
-        adapter.add(node)
-        
-        spread(graph, nonearly_adj_cnt, node, heap)
 
-    return len(adapter)
-                        
+    # 각 노드마다 두 가지 상태를 저장 
+    # status[node][0]: 노드가 얼리어답터인지 여부
+    # status[node][1]: 노드의 자식 중 얼리어답터가 있는지 여부
+    status = {i: [False, False] for i in range(1, nodes+1)}
+    
+    visited = [False] * (nodes + 1)
+    
+    def dfs(node):
+        visited[node] = True
+        
+        # 현재 노드의 모든 인접 노드에 대해
+        is_leaf = True
+        for adj_node in graph[node]:
+            is_leaf = False
+            if not visited[adj_node]:
+                dfs(adj_node)
+                
+            # 자식이 얼리어답터가 아니면, status[node][1] 업데이트
+            if status[adj_node][0]:
+                status[node][1] = True
+        
+        # 현재 노드의 자식 중 얼리어답터가 없다면, 현재 노드는 얼리어답터여야 함
+        if not status[node][1]:
+            status[node][0] = True
+        
+        # 리프 노드는 얼리어답터가 아니어도 됨
+        if is_leaf:
+            status[node][0] = False
+            status[node][1] = False
+
+    # 임의의 노드에서 시작
+    dfs(1)
+    
+    return sum(status[i][1] for i in range(1, nodes + 1)) 
                 
 if __name__ == "__main__":
     input = sys.stdin.readline
