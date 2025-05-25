@@ -24,6 +24,7 @@
 |[미네랄](https://www.acmicpc.net/problem/2933)|[👉](./22_미네랄.py)|💛💛💛|bfs, 시뮬레이션|
 |[사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533)|[👉](./23_sns.py)|💛💛💛|dfs|
 |[합리적인 이동경로](https://www.acmicpc.net/problem/2176)|[👉](./24_합리적인_이동경로.py)|💛💛|다익스트라, dfs, memoization(top-down)|
+|[점프](https://www.acmicpc.net/problem/1890)|[👉](./25_점프.py)|💛💛|dp, memoization(top-down)|
 
 
 <br><br><br>
