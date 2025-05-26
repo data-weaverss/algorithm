@@ -27,6 +27,9 @@
 | 백준 | [미네랄](https://www.acmicpc.net/problem/2933) | [👉 코드 보기](./22_미네랄.py) | 💛 |
 | 백준 | [사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533) | [👉 코드 보기](./23_사회망서비스.py) | 💛💛💛 |
 | 백준 | [합리적인 이동경로](https://www.acmicpc.net/problem/2176) | [👉 코드 보기](./24_합리적인이동경로.py) | 💛💛 |
+| 백준 | [점프](https://www.acmicpc.net/problem/1890) | [👉 코드 보기](./25_점프.py) | 🩶 |
+---
+
 ---
 
 ## 참고 사이트

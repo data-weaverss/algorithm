@@ -34,7 +34,7 @@ def solution(graph, N, dist):
     order = sorted(range(1, N + 1), key=lambda x: dist[x])
 
     for u in order:
-        for w, v in graph[u]:
+        for d, v in graph[u]:
             if dist[u] > dist[v]:  # T까지 더 가까운 정점으로만 이동
                 dp[u] += dp[v]
 
