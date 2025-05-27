@@ -1,5 +1,4 @@
 import sys
-from collections import deque
 
 def solution(board, N):
     """
@@ -14,9 +13,9 @@ def solution(board, N):
                 # 갈 수 없는 칸 건너뛰기, 마지막칸 중복 제거
                 continue
             move = board[r][c]
-            if r + move < N: # 아래로 이동
+            if r + move < N: # 오른쪽으로 이동
                 dp[r + move][c] += dp[r][c]
-            if c + move < N: # 위로 이동 
+            if c + move < N: # 아래쪽로 이동 
                 dp[r][c + move] += dp[r][c]
     
     return dp[N-1][N-1]
