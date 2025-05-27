@@ -21,6 +21,11 @@
 |[두 동전](https://www.acmicpc.net/problem/16197)|[👉](./19_두동전.py)|💛💛💛💛|bfs|
 |[Puyo Puyo](https://www.acmicpc.net/problem/11559)|[👉](./20_puyopuyo.py)|💛💛💛💛💛|bfs/dfs, 시뮬레이션(중력 구현)|
 |[Strahler 순서](https://www.acmicpc.net/problem/9470)|[👉](./21_strahler_순서.py)|💛💛💛|위상정렬|
+|[미네랄](https://www.acmicpc.net/problem/2933)|[👉](./22_미네랄.py)|💛💛💛|bfs, 시뮬레이션|
+|[사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533)|[👉](./23_sns.py)|💛💛💛|dfs|
+|[합리적인 이동경로](https://www.acmicpc.net/problem/2176)|[👉](./24_합리적인_이동경로.py)|💛💛|다익스트라, dfs, memoization(top-down)|
+|[점프](https://www.acmicpc.net/problem/1890)|[👉](./25_점프.py)|💛💛|dp, memoization(top-down)|
+|[기타리스트](https://www.acmicpc.net/problem/1495)|[👉](./26_기타리스트.py)|💛💛|dp, bottom-up|
 
 <br><br><br>
 
