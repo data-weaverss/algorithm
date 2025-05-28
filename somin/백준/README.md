@@ -29,6 +29,7 @@
 | 백준 | [합리적인 이동경로](https://www.acmicpc.net/problem/2176) | [👉 코드 보기](./24_합리적인이동경로.py) | 💛💛 |
 | 백준 | [점프](https://www.acmicpc.net/problem/1890) | [👉 코드 보기](./25_점프.py) | 🩶 |
 | 백준 | [기타리스트](https://www.acmicpc.net/problem/1495) | [👉 코드 보기](./26_기타리스트.py) | 🩶 |
+| 백준 | [BOJ](https://www.acmicpc.net/problem/12026) | [👉 코드 보기](./27_BOJ.py) | 🩶 |
 ---
 
 ---
