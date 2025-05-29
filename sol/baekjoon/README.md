@@ -26,7 +26,8 @@
 |[합리적인 이동경로](https://www.acmicpc.net/problem/2176)|[👉](./24_합리적인_이동경로.py)|💛 x 2|다익스트라, dfs, memoization(top-down)|
 |[점프](https://www.acmicpc.net/problem/1890)|[👉](./25_점프.py)|🩶 x 1|dp, memoization(top-down)|
 |[기타리스트](https://www.acmicpc.net/problem/1495)|[👉](./26_기타리스트.py)|🩶 x 1|dp, bottom-up|
-|[BOJ 거리](https://www.acmicpc.net/problem/12026)|[👉](./27_boj거리.py)|🩶 x 1||
+|[BOJ 거리](https://www.acmicpc.net/problem/12026)|[👉](./27_boj거리.py)|🩶 x 1|dp|
+|[퇴사 2](https://www.acmicpc.net/problem/15486)|[👉](./28_퇴사2.py)|💛 x 5|dp|
 
 
 
