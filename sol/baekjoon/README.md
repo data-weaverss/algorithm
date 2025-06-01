@@ -28,9 +28,8 @@
 |[기타리스트](https://www.acmicpc.net/problem/1495)|[👉](./26_기타리스트.py)|🩶 x 1|dp, bottom-up|
 |[BOJ 거리](https://www.acmicpc.net/problem/12026)|[👉](./27_boj거리.py)|🩶 x 1|dp|
 |[퇴사 2](https://www.acmicpc.net/problem/15486)|[👉](./28_퇴사2.py)|💛 x 5|dp|
-|[1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)|[👉](./29_123더하기4.py)|💛 x 5|dp|
-
-
+|[1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)|[👉](./29_123더하기4.py)|💛 x 5|dp, 점화식, 완전탐색 -> 이전 값을 재사용|
+|[동전 2](https://www.acmicpc.net/problem/2294)|[👉](./30_동전2.py)|💛 x 5|dp, 완전탐색 -> 이전 값을 재사용|
 
 
 <br><br><br>
