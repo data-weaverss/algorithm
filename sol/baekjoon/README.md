@@ -30,7 +30,7 @@
 |[퇴사 2](https://www.acmicpc.net/problem/15486)|[👉](./28_퇴사2.py)|💛 x 5|dp|
 |[1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)|[👉](./29_123더하기4.py)|💛 x 5|dp, 점화식, 완전탐색 -> 이전 값을 재사용|
 |[동전 2](https://www.acmicpc.net/problem/2294)|[👉](./30_동전2.py)|💛 x 5|dp, 완전탐색 -> 이전 값을 재사용|
-
+|[연속합](https://www.acmicpc.net/problem/1912)|[👉](./31_연속합.py)|💛 x 5|dp|
 
 <br><br><br>
 
@@ -74,3 +74,9 @@ mask = sum(1 << (ord(c) - ord('a')) for c in combo)
 
 1을 먼저 써야, 2를 쓸 수 있고, 2를 먼저 써야 3을 쓸 수 있음
 -> 조합(중복 방지)
+
+---
+
+# 연속합
+
+![alt text](./image/연속합.png)
