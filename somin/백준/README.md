@@ -30,6 +30,10 @@
 | 백준 | [점프](https://www.acmicpc.net/problem/1890) | [👉 코드 보기](./25_점프.py) | 🩶 |
 | 백준 | [기타리스트](https://www.acmicpc.net/problem/1495) | [👉 코드 보기](./26_기타리스트.py) | 🩶 |
 | 백준 | [BOJ](https://www.acmicpc.net/problem/12026) | [👉 코드 보기](./27_BOJ.py) | 🩶 |
+| 백준 | [퇴사2](https://www.acmicpc.net/problem/15486) | [👉 코드 보기](./28_퇴사2.py) | 💛💛💛💛💛 |
+| 백준 | [1,2,3 더하기 4](https://www.acmicpc.net/problem/15989) | [👉 코드 보기](./29_123더하기4.py) | 💛💛💛💛💛 |
+| 백준 | [연속합](https://www.acmicpc.net/problem/1912) | [👉 코드 보기](./30_연속합.py) | 🩶🩶 |
+| 백준 | [동전 2](https://www.acmicpc.net/problem/2294) | [👉 코드 보기](./31_동전2.py) | 💛💛💛💛💛 |
 ---
 
 ---
