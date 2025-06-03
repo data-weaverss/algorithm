@@ -34,6 +34,7 @@
 | 백준 | [1,2,3 더하기 4](https://www.acmicpc.net/problem/15989) | [👉 코드 보기](./29_123더하기4.py) | 💛💛💛💛💛 |
 | 백준 | [연속합](https://www.acmicpc.net/problem/1912) | [👉 코드 보기](./30_연속합.py) | 🩶🩶 |
 | 백준 | [동전 2](https://www.acmicpc.net/problem/2294) | [👉 코드 보기](./31_동전2.py) | 💛💛💛💛💛 |
+| 백준 | [크리보드](https://www.acmicpc.net/problem/11058) | [👉 코드 보기](./32_크리보드.py) | 💛💛💛💛💛 |
 ---
 
 ---
