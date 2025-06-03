@@ -30,7 +30,8 @@
 |[퇴사 2](https://www.acmicpc.net/problem/15486)|[👉](./28_퇴사2.py)|💛 x 5|dp|
 |[1, 2, 3 더하기 4](https://www.acmicpc.net/problem/15989)|[👉](./29_123더하기4.py)|💛 x 5|dp, 점화식, 완전탐색 -> 이전 값을 재사용|
 |[동전 2](https://www.acmicpc.net/problem/2294)|[👉](./30_동전2.py)|💛 x 5|dp, 완전탐색 -> 이전 값을 재사용|
-|[연속합](https://www.acmicpc.net/problem/1912)|[👉](./31_연속합.py)|💛 x 5|dp|
+|[연속합](https://www.acmicpc.net/problem/1912)|[👉](./31_연속합.py)|🩶 x 2|dp|
+|[크리보드](https://www.acmicpc.net/problem/11058)|[👉](./32_크리보드.py)|💛 x 5|dp, 점화식|
 
 <br><br><br>
 
