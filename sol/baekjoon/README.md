@@ -32,6 +32,7 @@
 |[동전 2](https://www.acmicpc.net/problem/2294)|[👉](./30_동전2.py)|💛 x 5|dp, 완전탐색 -> 이전 값을 재사용|
 |[연속합](https://www.acmicpc.net/problem/1912)|[👉](./31_연속합.py)|🩶 x 2|dp|
 |[크리보드](https://www.acmicpc.net/problem/11058)|[👉](./32_크리보드.py)|💛 x 5|dp, 점화식|
+|[괄호](https://www.acmicpc.net/problem/10422)|[👉](33_괄호.py)|💛 x 4|dp, 점화식|
 
 <br><br><br>
 
@@ -81,3 +82,9 @@ mask = sum(1 << (ord(c) - ord('a')) for c in combo)
 # 연속합
 
 ![alt text](./image/연속합.png)
+
+----
+
+# 괄호
+
+![alt text](./image/괄호.jpeg)
