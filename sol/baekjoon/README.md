@@ -34,6 +34,7 @@
 |[크리보드](https://www.acmicpc.net/problem/11058)|[👉](./32_크리보드.py)|💛 x 5|dp, 점화식|
 |[괄호](https://www.acmicpc.net/problem/10422)|[👉](33_괄호.py)|💛 x 4|dp, 점화식|
 |[평범한 배낭](https://www.acmicpc.net/problem/12865)|[👉](34_평범한배낭.py)|💛 x 5|dp, 주어진 range만큼 배열을 만들어서 푸는 문제|
+|[1학년](https://www.acmicpc.net/problem/5557)|[👉](35_1학년.py)|💛 x 5|dp, 주어진 range만큼 배열을 만들어서 푸는 문제|
 
 <br><br><br>
 
