@@ -33,6 +33,7 @@
 |[연속합](https://www.acmicpc.net/problem/1912)|[👉](./31_연속합.py)|🩶 x 2|dp|
 |[크리보드](https://www.acmicpc.net/problem/11058)|[👉](./32_크리보드.py)|💛 x 5|dp, 점화식|
 |[괄호](https://www.acmicpc.net/problem/10422)|[👉](33_괄호.py)|💛 x 4|dp, 점화식|
+|[평범한 배낭](https://www.acmicpc.net/problem/12865)|[👉](34_평범한배낭.py)|💛 x 5|dp, 주어진 range만큼 배열을 만들어서 푸는 문제|
 
 <br><br><br>
 
