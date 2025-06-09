@@ -37,6 +37,7 @@
 | 백준 | [크리보드](https://www.acmicpc.net/problem/11058) | [👉 코드 보기](./32_크리보드.py) | 💛💛💛💛💛 |
 | 백준 | [괄호](https://www.acmicpc.net/problem/10422) | [👉 코드 보기](./33_괄호.py) | 💛💛💛💛 |
 | 백준 | [평범한배낭](https://www.acmicpc.net/problem/12865) | [👉 코드 보기](./34_평범한배낭.py) | 💛💛💛💛💛 |
+| 백준 | [1학년](https://www.acmicpc.net/problem/5557) | [👉 코드 보기](./35_1학년.py) | 💛💛💛💛 |
 ---
 
 ---
