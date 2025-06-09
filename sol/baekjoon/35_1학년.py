@@ -9,7 +9,7 @@ def solution(num_count, nums):
     0 <= num <= 9
     
     총 시간 복잡도: 
-    핵심 아이디어: 
+    핵심 아이디어: 중간 계산값이 0-20 사이(배열의 range)
     """ 
     dp = list([0] * 21 for _ in range(num_count))
     dp[0][nums[0]] = 1
