@@ -35,8 +35,9 @@
 |[괄호](https://www.acmicpc.net/problem/10422)|[👉](33_괄호.py)|💛 x 4|dp, 점화식|
 |[평범한 배낭](https://www.acmicpc.net/problem/12865)|[👉](34_평범한배낭.py)|💛 x 5|dp, 주어진 range만큼 배열을 만들어서 푸는 문제|
 |[1학년](https://www.acmicpc.net/problem/5557)|[👉](35_1학년.py)|💛 x 5|dp, 주어진 range만큼 배열을 만들어서 푸는 문제|
-|[뮤탈리스트](https://www.acmicpc.net/problem/12869)|[👉](36_뮤탈리스트.py)|💛 x 4||
-|[팰린드롬?](https://www.acmicpc.net/problem/10942)|[👉](37_팰린드롬?.py)|💛 x 4||
+|[뮤탈리스트](https://www.acmicpc.net/problem/12869)|[👉](36_뮤탈리스트.py)|💛 x 4|dp|
+|[팰린드롬?](https://www.acmicpc.net/problem/10942)|[👉](37_팰린드롬?.py)|💛 x 4|dp|
+|[데스노트](https://www.acmicpc.net/problem/2281)|[👉](38_데스노트.py)|💛 x 3|dp|
 
 <br><br><br>
 
