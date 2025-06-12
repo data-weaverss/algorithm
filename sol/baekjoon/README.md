@@ -38,6 +38,7 @@
 |[뮤탈리스트](https://www.acmicpc.net/problem/12869)|[👉](36_뮤탈리스트.py)|💛 x 4|dp|
 |[팰린드롬?](https://www.acmicpc.net/problem/10942)|[👉](37_팰린드롬?.py)|💛 x 4|dp|
 |[데스노트](https://www.acmicpc.net/problem/2281)|[👉](38_데스노트.py)|💛 x 3|dp|
+|[소형기관차](https://www.acmicpc.net/problem/2616)|[👉](39_소형기관차.py)|💛 x 3|dp|
 
 <br><br><br>
 
