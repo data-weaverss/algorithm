@@ -10,17 +10,17 @@ def solution(n, passengers, max_trains):
     passengers <= 100
     max_trains < n / 3
     
-    총 시간 복잡도:  O(n)
+    총 시간 복잡도:  
     핵심 아이디어: 
-        - 누적합을 활용해 구간합을 O(1)로 빠르게 계싼
+        - 누적합을 활용해 구간합을 O(1)로 빠르게 계산
         - dp[train][j]: train번째 기관차가 j번째 객차까지 고려했을 때 운송할 수 있는 최대 승객 수
         - 점화식: 
         dp[train][j] = max(
-            dp[train][j - 1],                        ← 이전 객차까지의 최대값 유지
+            dp[train][j - 1],                        ← 이전 객차까지의 최댓값 유지
             dp[train - 1][j - max_trains] + curr_sum ← 현재 train이 맡을 구간 포함
         )
     """ 
-    # dp[train][j] : train 번째 기관차가 j번째 객체까지 고려했을 때 최대 손님 수
+    # dp[train][j] : train 번째 기관차가 j번째 객차까지 고려했을 때 최대 손님 수
     dp = list([0] * (n + 1) for _ in range(4))
     
     cum_sum = [0] * (n + 1)
