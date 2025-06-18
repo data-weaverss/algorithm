@@ -40,6 +40,7 @@
 |[데스노트](https://www.acmicpc.net/problem/2281)|[👉](38_데스노트.py)|💛 x 3|dp|
 |[소형기관차](https://www.acmicpc.net/problem/2616)|[👉](39_소형기관차.py)|💛 x 3|dp|
 |[행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)|[👉](40_행렬곱셈순서.py)|💛 x 3|dp, 점화식|
+|[Acka](https://www.acmicpc.net/problem/12996)|[👉](41_Acka.py)|💛 x 3|dp, top-down|
 
 <br><br><br>
 
