@@ -42,6 +42,7 @@
 |[행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)|[👉](40_행렬곱셈순서.py)|💛 x 3|dp, 점화식|
 |[Acka](https://www.acmicpc.net/problem/12996)|[👉](41_Acka.py)|💛 x 3|dp, top-down|
 |[예산](https://www.acmicpc.net/problem/2512)|[👉](42_예산.py)|🩶 x 2|이진분류|
+|[비슷한 단어](https://www.acmicpc.net/problem/2607)|[👉](43_비슷한단어.py)|🩶 x 2|문자열, 구현|
 
 <br><br><br>
 
