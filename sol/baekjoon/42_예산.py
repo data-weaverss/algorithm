@@ -8,7 +8,7 @@ import sys
     region_cnt <= budgets_sum <= 10^9
         
     총 시간 복잡도: O(region_cnt log(budget))
-    핵심 아이디어: 이진분류
+    핵심 아이디어: 이진탐색
 """ 
 def solution(region_cnt, budgets, budgets_sum):
     budgets.sort()
