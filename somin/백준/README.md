@@ -42,14 +42,22 @@
 | 38 | 데스노트        | [🔗 2281](https://www.acmicpc.net/problem/2281) | [👉 코드 보기](./38_데스노트.py)      | 골드3  | DP  |
 | 39 | 소형 기관차        | [🔗 2616](https://www.acmicpc.net/problem/2616) | [👉 코드 보기](./39_소형기관차.py)      | 골드3  | DP, 누적합  |
 | 40 | 행렬 곱셈 순서        | [🔗 11049](https://www.acmicpc.net/problem/11049) | [👉 코드 보기](./40_행렬곱셈순서.py)      | 골드3  | DP  |
-| 41 | Acka        | [🔗 12996](https://www.acmicpc.net/problem/12996) | [👉 코드 보기](./41_Acka.py)      | 골드3  | DP  |
+| 41 | Acka        | [🔗 12996](https://www.acmicpc.net/problem/12996) | [👉 코드 보기](./41_Acka.py)      | 실버2  | 구현 |
 
+## 💡 코테 문제집 문제 목록
+|  # | 문제 이름        | 문제 링크                                             | 풀이                             | 난이도  | 유형             |
+| -: | ------------ | ------------------------------------------------- | ------------------------------ | ---- | -------------- |
+| 01 | 예산        | [🔗 2512](https://www.acmicpc.net/problem/2512)   | [👉 코드 보기](./42_예산.py)       | 실버2 | 구현             |
+| 02 | 비슷한 단어          | [🔗 2607](https://www.acmicpc.net/problem/2607)   | [👉 코드 보기](./43_비슷한단어.py)        | 실버2  |       |
+| 03 | KCPC        | [🔗 3758](https://www.acmicpc.net/problem/3758) | [👉 코드 보기](./44_KCPC.py)      | 실버2  | 구현, 정렬  |
+| 04 | 최소힙          | [🔗 1927](https://www.acmicpc.net/problem/1927)   | [👉 코드 보기](./45_최소힙.py)        | 실버2  |       |
 
 ---
 
 ## 📌 참고 사이트
 - [📘 백준 알고리즘 기초 문제집](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
 - [📝 코딩테스트 대비를 위한 백준 문제 추천](https://whitetigerlouis.tistory.com/27#google_vignette)
+- [🦄 대기업 코테에서 나오는 유형 모음](https://www.acmicpc.net/workbook/view/8708)
 
 ---
 ## 카탈란 수열
