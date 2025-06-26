@@ -50,7 +50,9 @@
 | 01 | 예산        | [🔗 2512](https://www.acmicpc.net/problem/2512)   | [👉 코드 보기](./42_예산.py)       | 실버2 | 구현             |
 | 02 | 비슷한 단어          | [🔗 2607](https://www.acmicpc.net/problem/2607)   | [👉 코드 보기](./43_비슷한단어.py)        | 실버2  |       |
 | 03 | KCPC        | [🔗 3758](https://www.acmicpc.net/problem/3758) | [👉 코드 보기](./44_KCPC.py)      | 실버2  | 구현, 정렬  |
-| 04 | 최소힙          | [🔗 1927](https://www.acmicpc.net/problem/1927)   | [👉 코드 보기](./45_최소힙.py)        | 실버2  |       |
+| 04 | 최소힙          | [🔗 1927](https://www.acmicpc.net/problem/1927)   | [👉 코드 보기](./45_최소힙.py)        | 실버2  |   힙정렬    |
+| 05 | 랭킹전대기열         | [🔗 20006](https://www.acmicpc.net/problem/20006)   | [👉 코드 보기](./46_랭킹전대기열.py)        | 실버2  |  구현     |
+| 04 | 주식          | [🔗 11501](https://www.acmicpc.net/problem/11501)   | [👉 코드 보기](./47_주식.py)        | 실버2  |   그리디    |
 
 ---
 
