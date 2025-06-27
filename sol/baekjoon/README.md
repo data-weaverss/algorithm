@@ -47,6 +47,7 @@
 |[최소 힙](https://www.acmicpc.net/problem/1927)|[👉](45_최소힙.py)|🩶 x 2||
 |[랭킹전 대기열](https://www.acmicpc.net/problem/20006)|[👉](46_랭킹전대기열.py)|🩶 x 2|구현|
 |[주식](https://www.acmicpc.net/problem/11501)|[👉](47_주식.py)|🩶 x 2|그리디, 우선순위 큐|
+|[에디터](https://www.acmicpc.net/problem/1406)|[👉](48_에디터.py)|🩶 x 2|Linked List|
 
 <br><br><br>
 
