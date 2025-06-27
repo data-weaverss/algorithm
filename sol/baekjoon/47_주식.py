@@ -11,6 +11,8 @@ from heapq import heappop, heappush
     
     핵심아이디어: 그리디 -> 더 높은 주가가 나타날 때 과거의 주식을 모두 파는 것
     과거의 주식을 판 개수만큼, 오늘 산 주식을 다시 삼
+    
+    7 3 5 4 3 4
 """ 
 def solution(day, stocks):
     pq = [] # (가격, 개수)를 저장하는 최소 힙 → 낮은 가격부터 빠르게 꺼냄
