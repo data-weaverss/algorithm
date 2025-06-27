@@ -53,6 +53,7 @@
 | 04 | 최소힙          | [🔗 1927](https://www.acmicpc.net/problem/1927)   | [👉 코드 보기](./45_최소힙.py)        | 실버2  |   힙정렬    |
 | 05 | 랭킹전대기열         | [🔗 20006](https://www.acmicpc.net/problem/20006)   | [👉 코드 보기](./46_랭킹전대기열.py)        | 실버2  |  구현     |
 | 04 | 주식          | [🔗 11501](https://www.acmicpc.net/problem/11501)   | [👉 코드 보기](./47_주식.py)        | 실버2  |   그리디    |
+| 05 | 에디터          | [🔗 1406](https://www.acmicpc.net/problem/1406)   | [👉 코드 보기](./48_에디터.py)        | 실버2  |   그리디    |
 
 ---
 
