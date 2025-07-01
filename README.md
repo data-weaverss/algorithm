@@ -1,4 +1,4 @@
-# [프로그래머스 코딩테스트 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)(2025.02.10 ~)
+# [프로그래머스 코딩테스트 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)(2025.02.10 ~ 2025.06.27)
 
 ## 스터디 진행 방식
 - 매주 하나의 알고리즘을 학습 및 문제 해결
